@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arima:wght@300&family=Raleway:wght@300&family=Style+Script&display=swap');
+
+
+body {
+    background: #42a5f5;
+    font-family: Arima;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section {
+    background-color: #6eeb83;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.entrada {
+    background-color: #e0fbfc;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: Abril Fatface;
+}
+
+.botao {
+    background-color: #ffee32;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: Raleway;
+}

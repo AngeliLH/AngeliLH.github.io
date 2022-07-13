@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blog do Luiz</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1 id="subTitulo">Opa! Bom dia!</h1>
+            <input type="text" id="c1 campo-nome" class="entrada" placeholder="Insira seu nome">
+            <input type="button" value="Ok!" class="botao" onClick="exibeNome()">
+             <h3>Resultado:</h3>
+            <h2 id="resultadoNome"></h2>
+        </section>
+
+        <section>
+            <h1 id="titulo">Par ou Impar</h1>
+            <input type="number" id="c2 espaço-numero" class="entrada" placeholder="Escolha um número">
+            <input type="button" value="Ok!" class="botao" onClick="parOuImpar()">
+            <h3>Resultado:</h3>
+            <h2 id="resultadoNumero"></h2>
+        </section>
+
+        <section>
+            <h1 id="mais ou menos">Mais ou Menos!</h1>
+            <h3 id="minimo">Número mínimo!</h3>
+            <input type="number" id="c3 min" class="entrada" placeholder="Escolha um número">
+        
+            <h3 id="maximo">Número máximo!</h3>
+            <input type="number" id="c4 max" class="entrada" placeholder="Escolha um número">
+        
+            <h3 id="quantia">Quantidade de número que deseja</h3>
+            <input type="number" id="c5 quantidade" class="entrada" placeholder="Quantidade de número">
+            <input type="button" value="Ok!" class="botao" onClick="geraAleatorio()">
+            <h3>Resultado:</h3>
+            <h2 id="resultado"></h2>
+        </section>
+
+        <section>
+            <h1 id="megaCena">Gera Mega</h1>
+            <input type="number" id="quantia" class="entrada" placeholder="N° de jogos">
+            <input type="button" value="Gerar" class="botao" onclick="geraMega()">
+            <h3>Resultado:</h3>
+            <h2 id="resultadoMega"></h2>
+        </section>
+    </main>
+</body>
+</html>
