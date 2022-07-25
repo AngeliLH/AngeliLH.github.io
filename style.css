@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arima:wght@300&family=Raleway:wght@300&family=Style+Script&display=swap');
 
+header {
+display: flex;
+justify-content: space-around;
+
+}
+
 
 body {
-    background: #42a5f5;
+    background: #64E9EE;
     font-family: Arima;
+    color: #001011;
 }
 
 main {
@@ -13,7 +20,7 @@ main {
 }
 
 section {
-    background-color: #6eeb83;
+    background-color: #3AAFB9;
     margin: 10px;
     padding: 15px;
     border-radius: 5px;
@@ -28,14 +35,14 @@ section {
 
 .botao {
     cursor: pointer;
-    background-color: #ffee32;
+    background-color: #97C8EB;
     padding: 5px;
     border-radius: 20px;
     font-family: Raleway;
 }
 
 .botao:hover{
-    background-color: #c0b323;
+    background-color: #597181;
 }
 
 .entrada:hover{

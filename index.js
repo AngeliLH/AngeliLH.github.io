@@ -37,3 +37,42 @@ function geraJogoMega(){
 function CriaJogoValido(){
   
 }
+
+function geraCalculo(){
+  let valor1 = parseFloat(document.getElementById("c1-campo-numerico").value)
+  let valor2 = parseFloat(document.getElementById("c2-campo-numerico").value)
+  
+  // if (opcao == 1) {
+  //   console.log(soma(valor1, valor2))
+  // } else if (opcao == 2) {
+  //   console.log(subtracao(valor1, valor2))
+  // } else if (opcao == 3) {
+  //   console.log(multiplicacao(valor1, valor2))
+  // } else if (opcao == 4) {
+  //   console.log(divisao(valor1, valor2))
+  // }
+  
+  // function soma(a, b) {
+  //   let soma = a + b
+  //   return soma;
+  // }
+  
+  // function subtracao(a, b) {
+  //   let subtracao = a - b
+  //   return subtracao
+  // }
+  
+  // function multiplicacao(a, b) {
+  //   let multiplicacao = a * b
+  //   return multiplicacao
+  // }
+  
+  // function divisao(a, b) {
+  //   let divisao = a / b
+  //   return divisao
+  // }
+  
+}
+
+
+
